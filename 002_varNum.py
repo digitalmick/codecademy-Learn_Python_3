@@ -12,6 +12,7 @@ print(number_of_coffee)
 # Update the proce
 
 coffee_price = 2.00
+number_of_coffee = 6
 
 print(coffee_price * number_of_coffee)
 print(coffee_price)
