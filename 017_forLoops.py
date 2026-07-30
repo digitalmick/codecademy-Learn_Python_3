@@ -19,3 +19,47 @@ for temp in range(5):
 
 # for loop: using while
 
+countdown = 10
+while countdown >= 0:
+  print(countdown)
+  countdown -= 1
+
+print("We have liftoff!")
+
+# for loop: lists
+
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
+
+length = len(python_topics)
+index = 0
+while index < length:
+  print("I am learning about", python_topics[index])
+  index += 1
+
+# for loop: infinite loops (example fixes the loop)
+
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+index = 0
+length = len(students_period_A)
+
+while index < length:
+  students_period_B.append(students_period_A[index])
+  index += 1
+print(students_period_B)
+
+#  for loop: break
+
+dog_breeds_available_for_adoption = ["french_bulldog", "dalmatian", "shihtzu", "poodle", "collie"]
+dog_breed_I_want = "dalmatian"
+
+
+index = 0
+
+for dog_breed in dog_breeds_available_for_adoption:
+  print(dog_breed)
+  if dog_breed == dog_breed_I_want:
+    break
+print("They have the dog I want!")
+
+# 
