@@ -62,4 +62,25 @@ for dog_breed in dog_breeds_available_for_adoption:
     break
 print("They have the dog I want!")
 
-# 
+# for loop: continue
+
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+  if age < 21:
+   continue
+  print(age)
+
+# for loop: nested
+
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
+
+for location in sales_data:
+  print(location)
+  for scoops in location:
+    scoops_sold += scoops
+print(scoops_sold)
+
+# for loop: list comprehensions
+
