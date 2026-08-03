@@ -84,3 +84,28 @@ print(scoops_sold)
 
 # for loop: list comprehensions
 
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+scaled_grades = [grade + 10 for grade in grades]
+print(scaled_grades)
+
+# for loop: conditionals
+
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+can_ride_coaster = [height for height in heights if height > 161]
+print(can_ride_coaster)
+
+#  for loop: review
+
+single_digits = [0,1,2,3,4,5,6,7,8,9]
+squares = []
+cubes = []
+for digit in single_digits:
+  print(digit)
+
+for digit in single_digits:
+  squares.append(digit ** 2)
+print(squares)
+
+for digit in single_digits:
+  cubes.append(digit ** 3)
+print(cubes)
